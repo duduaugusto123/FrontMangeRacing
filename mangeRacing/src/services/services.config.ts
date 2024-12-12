@@ -1,16 +1,18 @@
-import axios, { AxiosResponse } from "axios";
+import axios, {type AxiosResponse} from "axios";
 
-const BASE_URL = "http://localhost:3000/";
+export const BaseUrl = `http://localhost:3000/`
+export const getAxios = ()=> {
+    const createdAxios = axios.create({
+        baseURL: `http://localhost:3000/`, //"/proxy-api/api", //`${BASE_URL}/api`,
+        timeout: 40000, //40 segundos
+    });
 
-export const getAxios = () => {
-  const axiosInstance = axios.create({
-    baseURL: BASE_URL,
-    timeout: 30000,
-  });
+    //createdAxios.interceptors.request.use()
+    createdAxios.interceptors.response.use(getAxiosResponse);
+    
+    return createdAxios;
+}
 
-  axiosInstance.interceptors.response.use(
-    (response: AxiosResponse) => response.data
-  );
-
-  return axiosInstance;
-};
+export const getAxiosResponse = (response: AxiosResponse) =>{
+    return response.data;
+}

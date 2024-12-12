@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { PartsResponse, type PartsResponseType, Part } from '@/models/Parts';
-  import { getPartsMotoCustom, getPartsMotoSport , getPartsMotoBigTrail} from '@/services/part.service';
+  import { MotoTypes, getPartsMoto } from '@/services/part.service';
   import { type Ref, ref, reactive } from 'vue';
   import PartSelector from '@/components/PartSelector.vue';
   import { ItemCart } from '@/models/Cart';
@@ -17,7 +17,7 @@
 
 
 
-  getPartsMotoBigTrail()
+  getPartsMoto(MotoTypes.BIG_TRAIL)
     .then(parts=>{
       availableParts.value = parts;
       const { dianteira, guidao, motor, traseira } = parts;

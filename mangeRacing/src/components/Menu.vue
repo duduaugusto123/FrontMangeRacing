@@ -1,14 +1,12 @@
 <script setup lang="ts">
-
-import { ref } from 'vuex';
-
+;
 function getLocalStorageItem(key: string): boolean {
     const value = localStorage.getItem(key);
     return value === 'true';
 }
 
-const logado = ref(getLocalStorageItem('logado'));
-const gerenciador = ref(getLocalStorageItem('gerenciador'));
+const logado = getLocalStorageItem('logado');
+const gerenciador = getLocalStorageItem('gerenciador');
 
 const routes = {
     home: '/',
