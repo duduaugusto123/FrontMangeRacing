@@ -1,0 +1,234 @@
+{
+    "MotoTipCustom": [
+        
+      { 
+        
+        "dianteira":
+        [  
+            {
+                "id": "1", 
+                "src": "/src/assets/motos/RodaFrente-1.png",
+                "cost": 125     
+            },
+            {
+                "id": "2", 
+                "src": "/src/assets/motos/RodaFrente-4.png",
+                "cost": 275     
+            },
+            {
+                "id": "3", 
+                "src": "/src/assets/motos/RodaFrente-7.png",
+                "cost": 225    
+            }
+        ],
+
+        "guidao":
+        [
+            {
+                "id": "1", 
+                "src": "/src/assets/motos/Frente-1.png",
+                "cost": 100
+            },
+            {
+                "id": "2", 
+                "src": "/src/assets/motos/Frente-3.png",
+                "cost": 200
+            }
+            ,
+            {
+                "id": "3", 
+                "src": "/src/assets/motos/Frente-7.png",
+                "cost": 190
+            }
+                 
+        ],
+        "motor":
+        [
+            {
+                "id": "1", 
+                "src": "/src/assets/motos/Motor-1.png",
+                "cost": 170
+            },
+            {
+                "id": "2", 
+                "src": "/src/assets/motos/Motor-5.png",
+                "cost": 210 
+            }
+            ,
+            {
+                "id": "3", 
+                "src": "/src/assets/motos/Motor-7.png",
+                "cost": 310 
+            }
+                 
+        ],
+        "traseira":
+        [
+            {
+                "id": "1", 
+                "src": "/src/assets/motos/RodaTraseira-1.png",
+                "cost": 230
+            },
+            {
+                "id": "2", 
+                "src": "/src/assets/motos/RodaTraseira-6.png",
+                "cost": 120 
+            }
+            
+                 
+        ],
+        "id":"1"
+    }
+    ],
+
+    "MotoTipSport": [
+      {
+        "dianteira":
+        [  
+            {
+                "id": "1", 
+                "src": "/src/assets/motos/RodaFrente-2.png",
+                "cost": 125     
+            },
+            {
+                "id": "2", 
+                "src": "/src/assets/motos/RodaFrente-6.png",
+                "cost": 275     
+            }
+        ],
+
+        "guidao":
+        [
+            {
+                "id": "1", 
+                "src": "/src/assets/motos/Frente-5.png",
+                "cost": 115
+            },
+            {
+                "id": "2", 
+                "src": "/src/assets/motos/Frente-2.png",
+                "cost": 170
+            }
+                 
+        ],
+        "motor":
+        [
+            {
+                "id": "1", 
+                "src": "/src/assets/motos/Motor-2.png",
+                "cost": 210
+            },
+            {
+                "id": "2", 
+                "src": "/src/assets/motos/Motor-3.png",
+                "cost": 255 
+            },
+            {
+                "id": "3", 
+                "src": "/src/assets/motos/Motor-4.png",
+                "cost": 300 
+            }
+                 
+        ],
+        "traseira":
+        [
+            {
+                "id": "1", 
+                "src": "/src/assets/motos/RodaTraseira-2.png",
+                "cost": 233
+            },
+            {
+                "id": "1", 
+                "src": "/src/assets/motos/RodaTraseira-3.jpg",
+                "cost": 139 
+            }
+                 
+        ],
+        "id":"2"
+      }
+     
+    ],
+
+    "MotoTipBigTrail": [
+      {
+        "dianteira":
+        [  
+            {
+                "id": "1", 
+                "src": "/src/assets/motos/RodaFrente-3.png",
+                "cost": 125     
+            },
+            {
+                "id": "2", 
+                "src": "/src/assets/motos/RodaFrente-5.png",
+                "cost": 275     
+            }
+        ],
+
+        "guidao":
+        [
+            {
+                "id": "1", 
+                "src": "/src/assets/motos/Frente-4.png",
+                "cost": 122
+            },
+            {
+                "id": "1", 
+                "src": "/src/assets/motos/Frente-6.png",
+                "cost": 135
+            }
+                 
+        ],
+        "motor":
+        [
+            {
+                "id": "1", 
+                "src": "/src/assets/motos/Motor-6.png",
+                "cost": 327
+            },
+            {
+                "id": "1", 
+                "src": "/src/assets/motos/Motor-4.png",
+                "cost": 225 
+            }
+                 
+        ],
+        "traseira":
+        [
+            {
+                "id": "1", 
+                "src": "/src/assets/motos/RodaTraseira-4.png",
+                "cost": 120
+            },
+            {
+                "id": "2", 
+                "src": "/src/assets/motos/RodaTraseira-5.png",
+                "cost": 175 
+            }
+            ,
+            {
+                "id": "3", 
+                "src": "/src/assets/motos/RodaTraseira-8.png",
+                "cost": 350 
+            }
+                     
+        ],
+        "id":"3"
+        
+    }   
+        
+    ] ,
+
+    "Username": [
+    {
+      "id": "1",
+      "login": "comprador1",
+      "senha": "comprador1234"
+    },
+    {
+      "id": "2",
+      "login": "gerenciador1",
+      "senha": "gerenciador1234"
+    }
+  ]
+  }
